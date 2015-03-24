@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6724" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6711"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="_07_Weight_Sensor_Interface_Using_PaintCode" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5ta-3g-pjD" customClass="WeightSensorView" customModule="_07_Weight_Sensor_Interface_Using_PaintCode" customModuleProvider="target">
+                                <rect key="frame" x="100" y="151" width="400" height="298"/>
+                                <color key="backgroundColor" red="1" green="0.99997437000274658" blue="0.99999123811721802" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="298" id="faT-bR-hKA"/>
+                                    <constraint firstAttribute="width" constant="400" id="vMl-o6-VwS"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cyd-KO-mBa">
+                                <rect key="frame" x="266" y="473" width="29" height="61"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="51"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.59999999999999998" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="kg" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xsf-oN-l6F">
+                                <rect key="frame" x="319" y="479" width="43" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VhD-bu-460">
+                                <rect key="frame" x="190" y="40" width="80" height="30"/>
+                                <state key="normal" title="Add Weight">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="addItem:" destination="BYZ-38-t0r" eventType="touchUpInside" id="J5o-rc-fiP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yuN-OB-tKa">
+                                <rect key="frame" x="296" y="40" width="108" height="30"/>
+                                <state key="normal" title="Remove Weight">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="addItem:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aJh-b4-Z97"/>
+                                    <action selector="removeItem:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1t0-9I-4vA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="5ta-3g-pjD" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="1mj-C3-czQ"/>
+                            <constraint firstItem="5ta-3g-pjD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4BD-PF-n5K"/>
+                            <constraint firstItem="Xsf-oN-l6F" firstAttribute="top" secondItem="5ta-3g-pjD" secondAttribute="bottom" constant="30" id="E7w-DL-hcL"/>
+                            <constraint firstItem="5ta-3g-pjD" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="130" id="Jhc-YY-qdQ"/>
+                            <constraint firstAttribute="centerX" secondItem="yuN-OB-tKa" secondAttribute="centerX" constant="-50" id="SpR-UI-gEN"/>
+                            <constraint firstItem="cyd-KO-mBa" firstAttribute="top" secondItem="5ta-3g-pjD" secondAttribute="bottom" constant="24" id="TzT-kL-5lf"/>
+                            <constraint firstAttribute="centerX" secondItem="cyd-KO-mBa" secondAttribute="centerX" constant="20" id="V1C-L5-YPt"/>
+                            <constraint firstItem="VhD-bu-460" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="X0N-0A-Hr6"/>
+                            <constraint firstAttribute="centerX" secondItem="Xsf-oN-l6F" secondAttribute="centerX" constant="-40" id="lMS-zg-v59"/>
+                            <constraint firstItem="5ta-3g-pjD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="84" id="mMr-Sq-8P8"/>
+                            <constraint firstAttribute="centerX" secondItem="yuN-OB-tKa" secondAttribute="centerX" constant="-72" id="wNf-Iq-jbL"/>
+                            <constraint firstItem="yuN-OB-tKa" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="yWy-F3-JQB"/>
+                            <constraint firstAttribute="centerX" secondItem="VhD-bu-460" secondAttribute="centerX" constant="70" id="yti-s9-diY"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Jhc-YY-qdQ"/>
+                                <exclude reference="mMr-Sq-8P8"/>
+                                <exclude reference="wNf-Iq-jbL"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="weightNumberLabel" destination="cyd-KO-mBa" id="Dv6-zm-ah8"/>
+                        <outlet property="weightSensorView" destination="5ta-3g-pjD" id="MaR-AY-Sqv"/>
+                        <outlet property="weightUnitLabel" destination="Xsf-oN-l6F" id="kg6-r5-x9k"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

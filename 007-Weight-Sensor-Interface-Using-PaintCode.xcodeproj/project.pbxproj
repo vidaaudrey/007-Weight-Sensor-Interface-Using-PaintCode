@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76B6793A1AC0E31300BE48CE /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 76B679391AC0E31300BE48CE /* bg.png */; };
+		76DBD9C11AC0B87C00E2FF59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DBD9C01AC0B87C00E2FF59 /* AppDelegate.swift */; };
+		76DBD9C31AC0B87C00E2FF59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DBD9C21AC0B87C00E2FF59 /* ViewController.swift */; };
+		76DBD9C61AC0B87C00E2FF59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76DBD9C41AC0B87C00E2FF59 /* Main.storyboard */; };
+		76DBD9C81AC0B87C00E2FF59 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76DBD9C71AC0B87C00E2FF59 /* Images.xcassets */; };
+		76DBD9CB1AC0B87C00E2FF59 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76DBD9C91AC0B87C00E2FF59 /* LaunchScreen.xib */; };
+		76DBD9D71AC0B87C00E2FF59 /* _07_Weight_Sensor_Interface_Using_PaintCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DBD9D61AC0B87C00E2FF59 /* _07_Weight_Sensor_Interface_Using_PaintCodeTests.swift */; };
+		76DBD9E31AC0BDA100E2FF59 /* StyleKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DBD9E21AC0BDA100E2FF59 /* StyleKit.swift */; };
+		76DBD9E51AC0C0AA00E2FF59 /* WeightSensorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DBD9E41AC0C0AA00E2FF59 /* WeightSensorView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76DBD9D11AC0B87C00E2FF59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76DBD9B31AC0B87C00E2FF59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76DBD9BA1AC0B87C00E2FF59;
+			remoteInfo = "007-Weight-Sensor-Interface-Using-PaintCode";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		76B679391AC0E31300BE48CE /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		76DBD9BB1AC0B87C00E2FF59 /* 007-Weight-Sensor-Interface-Using-PaintCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "007-Weight-Sensor-Interface-Using-PaintCode.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76DBD9BF1AC0B87C00E2FF59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76DBD9C01AC0B87C00E2FF59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		76DBD9C21AC0B87C00E2FF59 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		76DBD9C51AC0B87C00E2FF59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		76DBD9C71AC0B87C00E2FF59 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		76DBD9CA1AC0B87C00E2FF59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		76DBD9D01AC0B87C00E2FF59 /* 007-Weight-Sensor-Interface-Using-PaintCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "007-Weight-Sensor-Interface-Using-PaintCodeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76DBD9D51AC0B87C00E2FF59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76DBD9D61AC0B87C00E2FF59 /* _07_Weight_Sensor_Interface_Using_PaintCodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _07_Weight_Sensor_Interface_Using_PaintCodeTests.swift; sourceTree = "<group>"; };
+		76DBD9E21AC0BDA100E2FF59 /* StyleKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleKit.swift; sourceTree = "<group>"; };
+		76DBD9E41AC0C0AA00E2FF59 /* WeightSensorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeightSensorView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76DBD9B81AC0B87C00E2FF59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76DBD9CD1AC0B87C00E2FF59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76DBD9B21AC0B87C00E2FF59 = {
+			isa = PBXGroup;
+			children = (
+				76DBD9BD1AC0B87C00E2FF59 /* 007-Weight-Sensor-Interface-Using-PaintCode */,
+				76DBD9D31AC0B87C00E2FF59 /* 007-Weight-Sensor-Interface-Using-PaintCodeTests */,
+				76DBD9BC1AC0B87C00E2FF59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76DBD9BC1AC0B87C00E2FF59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76DBD9BB1AC0B87C00E2FF59 /* 007-Weight-Sensor-Interface-Using-PaintCode.app */,
+				76DBD9D01AC0B87C00E2FF59 /* 007-Weight-Sensor-Interface-Using-PaintCodeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76DBD9BD1AC0B87C00E2FF59 /* 007-Weight-Sensor-Interface-Using-PaintCode */ = {
+			isa = PBXGroup;
+			children = (
+				76DBD9E21AC0BDA100E2FF59 /* StyleKit.swift */,
+				76DBD9C21AC0B87C00E2FF59 /* ViewController.swift */,
+				76DBD9C41AC0B87C00E2FF59 /* Main.storyboard */,
+				76DBD9E41AC0C0AA00E2FF59 /* WeightSensorView.swift */,
+				76DBD9BE1AC0B87C00E2FF59 /* Supporting Files */,
+			);
+			path = "007-Weight-Sensor-Interface-Using-PaintCode";
+			sourceTree = "<group>";
+		};
+		76DBD9BE1AC0B87C00E2FF59 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				76B679391AC0E31300BE48CE /* bg.png */,
+				76DBD9C01AC0B87C00E2FF59 /* AppDelegate.swift */,
+				76DBD9C71AC0B87C00E2FF59 /* Images.xcassets */,
+				76DBD9C91AC0B87C00E2FF59 /* LaunchScreen.xib */,
+				76DBD9BF1AC0B87C00E2FF59 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		76DBD9D31AC0B87C00E2FF59 /* 007-Weight-Sensor-Interface-Using-PaintCodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				76DBD9D61AC0B87C00E2FF59 /* _07_Weight_Sensor_Interface_Using_PaintCodeTests.swift */,
+				76DBD9D41AC0B87C00E2FF59 /* Supporting Files */,
+			);
+			path = "007-Weight-Sensor-Interface-Using-PaintCodeTests";
+			sourceTree = "<group>";
+		};
+		76DBD9D41AC0B87C00E2FF59 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				76DBD9D51AC0B87C00E2FF59 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76DBD9BA1AC0B87C00E2FF59 /* 007-Weight-Sensor-Interface-Using-PaintCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76DBD9DA1AC0B87C00E2FF59 /* Build configuration list for PBXNativeTarget "007-Weight-Sensor-Interface-Using-PaintCode" */;
+			buildPhases = (
+				76DBD9B71AC0B87C00E2FF59 /* Sources */,
+				76DBD9B81AC0B87C00E2FF59 /* Frameworks */,
+				76DBD9B91AC0B87C00E2FF59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "007-Weight-Sensor-Interface-Using-PaintCode";
+			productName = "007-Weight-Sensor-Interface-Using-PaintCode";
+			productReference = 76DBD9BB1AC0B87C00E2FF59 /* 007-Weight-Sensor-Interface-Using-PaintCode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		76DBD9CF1AC0B87C00E2FF59 /* 007-Weight-Sensor-Interface-Using-PaintCodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76DBD9DD1AC0B87C00E2FF59 /* Build configuration list for PBXNativeTarget "007-Weight-Sensor-Interface-Using-PaintCodeTests" */;
+			buildPhases = (
+				76DBD9CC1AC0B87C00E2FF59 /* Sources */,
+				76DBD9CD1AC0B87C00E2FF59 /* Frameworks */,
+				76DBD9CE1AC0B87C00E2FF59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76DBD9D21AC0B87C00E2FF59 /* PBXTargetDependency */,
+			);
+			name = "007-Weight-Sensor-Interface-Using-PaintCodeTests";
+			productName = "007-Weight-Sensor-Interface-Using-PaintCodeTests";
+			productReference = 76DBD9D01AC0B87C00E2FF59 /* 007-Weight-Sensor-Interface-Using-PaintCodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76DBD9B31AC0B87C00E2FF59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Shomigo;
+				TargetAttributes = {
+					76DBD9BA1AC0B87C00E2FF59 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					76DBD9CF1AC0B87C00E2FF59 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 76DBD9BA1AC0B87C00E2FF59;
+					};
+				};
+			};
+			buildConfigurationList = 76DBD9B61AC0B87C00E2FF59 /* Build configuration list for PBXProject "007-Weight-Sensor-Interface-Using-PaintCode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76DBD9B21AC0B87C00E2FF59;
+			productRefGroup = 76DBD9BC1AC0B87C00E2FF59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76DBD9BA1AC0B87C00E2FF59 /* 007-Weight-Sensor-Interface-Using-PaintCode */,
+				76DBD9CF1AC0B87C00E2FF59 /* 007-Weight-Sensor-Interface-Using-PaintCodeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76DBD9B91AC0B87C00E2FF59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76DBD9C61AC0B87C00E2FF59 /* Main.storyboard in Resources */,
+				76DBD9CB1AC0B87C00E2FF59 /* LaunchScreen.xib in Resources */,
+				76B6793A1AC0E31300BE48CE /* bg.png in Resources */,
+				76DBD9C81AC0B87C00E2FF59 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76DBD9CE1AC0B87C00E2FF59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76DBD9B71AC0B87C00E2FF59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76DBD9C31AC0B87C00E2FF59 /* ViewController.swift in Sources */,
+				76DBD9C11AC0B87C00E2FF59 /* AppDelegate.swift in Sources */,
+				76DBD9E51AC0C0AA00E2FF59 /* WeightSensorView.swift in Sources */,
+				76DBD9E31AC0BDA100E2FF59 /* StyleKit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76DBD9CC1AC0B87C00E2FF59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76DBD9D71AC0B87C00E2FF59 /* _07_Weight_Sensor_Interface_Using_PaintCodeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76DBD9D21AC0B87C00E2FF59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76DBD9BA1AC0B87C00E2FF59 /* 007-Weight-Sensor-Interface-Using-PaintCode */;
+			targetProxy = 76DBD9D11AC0B87C00E2FF59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		76DBD9C41AC0B87C00E2FF59 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76DBD9C51AC0B87C00E2FF59 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		76DBD9C91AC0B87C00E2FF59 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76DBD9CA1AC0B87C00E2FF59 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76DBD9D81AC0B87C00E2FF59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		76DBD9D91AC0B87C00E2FF59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76DBD9DB1AC0B87C00E2FF59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "007-Weight-Sensor-Interface-Using-PaintCode/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		76DBD9DC1AC0B87C00E2FF59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "007-Weight-Sensor-Interface-Using-PaintCode/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		76DBD9DE1AC0B87C00E2FF59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "007-Weight-Sensor-Interface-Using-PaintCodeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/007-Weight-Sensor-Interface-Using-PaintCode.app/007-Weight-Sensor-Interface-Using-PaintCode";
+			};
+			name = Debug;
+		};
+		76DBD9DF1AC0B87C00E2FF59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "007-Weight-Sensor-Interface-Using-PaintCodeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/007-Weight-Sensor-Interface-Using-PaintCode.app/007-Weight-Sensor-Interface-Using-PaintCode";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76DBD9B61AC0B87C00E2FF59 /* Build configuration list for PBXProject "007-Weight-Sensor-Interface-Using-PaintCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76DBD9D81AC0B87C00E2FF59 /* Debug */,
+				76DBD9D91AC0B87C00E2FF59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76DBD9DA1AC0B87C00E2FF59 /* Build configuration list for PBXNativeTarget "007-Weight-Sensor-Interface-Using-PaintCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76DBD9DB1AC0B87C00E2FF59 /* Debug */,
+				76DBD9DC1AC0B87C00E2FF59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76DBD9DD1AC0B87C00E2FF59 /* Build configuration list for PBXNativeTarget "007-Weight-Sensor-Interface-Using-PaintCodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76DBD9DE1AC0B87C00E2FF59 /* Debug */,
+				76DBD9DF1AC0B87C00E2FF59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76DBD9B31AC0B87C00E2FF59 /* Project object */;
+}
