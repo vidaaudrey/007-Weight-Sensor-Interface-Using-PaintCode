@@ -1,6 +1,6 @@
 # Weight Sensor Interface Using PaintCode
 
-![Snapshot 1](https://github.com/vidaaudrey/007-Weight-Sensor-Interface-Using-PaintCode/blob/master/_Snapshot/Snapshot.gif)
+![Snapshot 1](https://github.com/vidaaudrey/007-Weight-Sensor-Interface-Using-PaintCode/blob/master/_Snapshot/snapshot.gif)
 
 
 **Description**: A simple weight sensor UI interface using PaintCode 
